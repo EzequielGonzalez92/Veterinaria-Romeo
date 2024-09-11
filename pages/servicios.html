@@ -1,36 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- mi css -->
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Servicios</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Nuestros Servicios</h1>
+      <h1>Nuestros Servicios</h1>
     </header>
-    <nav>
-        <ul class="menu">
-            <li> <a href="../index.html">Inicio</a></li>
-            <li> <a href="./productos.html">Productos</a></li>
-            <li> <a href="./servicios.html">Servicios</a></li>
-            <li> <a href="./usuarios.html">Usuarios</a></li>
-            <li> <a href="./contactos.html">Contáctos</a></li>
-        </ul>
-    </nav>
-    <iframe class="iframeVideo" width="660" height="415" src="https://www.youtube.com/embed/2q2lv4LLkd4?si=E1YHfGa2dk4ebHDe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eius quam officiis aspernatur suscipit sunt sapiente architecto ducimus nesciunt iusto explicabo deserunt, maiores aut nostrum ad delectus voluptatum molestiae repellendus fugiat. Excepturi, sed tempore. Nesciunt ex, quae dicta perferendis beatae iste non. Unde asperiores placeat ea eos officia nihil quasi eligendi necessitatibus, laboriosam incidunt vero optio temporibus at dignissimos minima. Soluta aliquid deleniti provident modi itaque numquam voluptate illum earum est sed rerum id odit, nam magni alias neque repellendus eligendi omnis ratione ea necessitatibus nesciunt cum. Repudiandae, non a alias provident quia quasi deserunt accusantium in? Dignissimos, molestiae excepturi.</p>
-
-    <h2>Encontranos acá</h2>
-    <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3098.598072762287!2d-67.54241569999999!3d-39.047282599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a02997299fc5f%3A0xd4802742607938cf!2sVintter%20185%2C%20R8332%20Padre%20Stefenelli%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1724788451209!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
-
-    <footer class="footer"><h3>Todos los derechos reservados.</h3></footer>
     
-</body>
+      <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="../pages/productos.html">Productos</a>
+              <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+              <a class="nav-link" href="../pages/usuarios.html">Usuarios</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../pages/contactos.html"
+                >Contáctos</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main class="servicios">
+      <div class="container video">
+        <iframe
+          class="iframeVideo"
+          width="660"
+          height="415"
+          src="https://www.youtube.com/embed/2q2lv4LLkd4?si=E1YHfGa2dk4ebHDe"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eius quam
+        officiis aspernatur suscipit sunt sapiente architecto ducimus nesciunt
+        iusto explicabo deserunt, maiores aut nostrum ad delectus voluptatum
+        molestiae repellendus fugiat. Excepturi, sed tempore. Nesciunt ex, quae
+        dicta perferendis beatae iste non. Unde asperiores placeat ea eos
+        officia nihil quasi eligendi necessitatibus, laboriosam incidunt vero
+        optio temporibus at dignissimos minima. Soluta aliquid deleniti
+        provident modi itaque numquam voluptate illum earum est sed rerum id
+        odit, nam magni alias neque repellendus eligendi omnis ratione ea
+        necessitatibus nesciunt cum. Repudiandae, non a alias provident quia
+        quasi deserunt accusantium in? Dignissimos, molestiae excepturi.
+      </p>
+
+      <h2>Encontranos acá</h2>
+      <div class="container col-md-12 mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3098.598072762287!2d-67.54241569999999!3d-39.047282599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a02997299fc5f%3A0xd4802742607938cf!2sVintter%20185%2C%20R8332%20Padre%20Stefenelli%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1724788451209!5m2!1ses-419!2sar"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </main>
+    <footer class="footer"><h3>Todos los derechos reservados.</h3></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
