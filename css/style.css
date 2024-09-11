@@ -1,0 +1,41 @@
+/* mi css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #8d3232;
+    text-align: center;
+
+}
+body{
+    background-color: aquamarine;
+}
+
+h2{
+    color: blueviolet;
+    text-align: center;
+}
+/* barra de menu */
+
+.menu{
+    color: rgb(129, 96, 53);
+    list-style-type: none;
+    text-align: center;
+
+}
+.menu li {
+    display: inline;
+    margin-right: 10px;
+
+
+}
+.footer{
+    text-align: center;
+    color: rgb(7, 7, 133);
+}
+
+.iframeVideo{
+    text-align: right;
+}
